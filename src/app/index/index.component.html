@@ -1,1 +1,10 @@
-<p>index works!</p>
+<div class="container-wrapper">
+    <div class="login-container" [formGroup]="form">
+        <span class="text-center">Área do usuário</span>
+        <input type="text" [ngClass]="form.invalid ? ' is-invalid form-control my-2' : 'form-control my-2'" placeholder="Usuário" formControlName="username" />
+        <input type="password" [ngClass]="form.invalid ? ' is-invalid form-control my-2' : 'form-control mb-2'" placeholder="Senha" formControlName="password" />
+        <small class="text-danger" *ngIf="form.invalid">Credenciais inválidas</small>
+        <hr />
+        <button type="button" class="btn-primary btn" (click)="login()">Login</button>
+    </div>
+</div>
