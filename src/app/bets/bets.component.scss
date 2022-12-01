@@ -1,0 +1,21 @@
+.bets-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.bets {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    margin: 15px;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
+
+.button {
+    max-width: fit-content;
+    justify-self: center;
+}

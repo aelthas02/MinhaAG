@@ -1,1 +1,28 @@
-<p>bets works!</p>
+<div class="bets-wrapper">
+    <div class="bets">
+        <table class="table" *ngIf="bets.length > 0">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Cotação</th>
+                    <th>Valor</th>
+                    <th>Jogos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let bet of (bets$ | async)">
+                    <td>{{bet.id}}</td>
+                    <td>{{bet.cotacao}}</td>
+                    <td>{{bet.valor | currency:'BRL':true:'1.2-2'}}</td>
+                    <td>
+                        <ul>
+                            <li *ngFor="let jogo of bet.jogos">{{jogo}}</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p *ngIf="bets.length == 0">Você ainda não realizou apostas</p>
+        <button type="button" class="btn btn-primary button" (click)="return()">Voltar</button>
+    </div>
+</div>

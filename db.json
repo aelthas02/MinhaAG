@@ -1,0 +1,66 @@
+{
+    "user": [
+        {
+            "username": "usuário2 exemplo",
+            "password": "password2 exemplo",
+            "token": "ExEmPlO Token====",
+            "bets": [
+                458
+            ]
+        },
+        {
+            "username": "user",
+            "password": "pass",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDb2RlIFNob3RzIFdpdGggUHJvZmFuaXMiLCJpYXQiOjE2MjQyNzU1MjUsImV4cCI6MTY1NTgxMTUyNSwiYXVkIjoiQ29kZSBTaG90IFdpdGggUHJvZmFuaXMgU3Vic2NyaWJlcnMiLCJzdWIiOiJDb2RlIFNob3QgV2l0aCBQcm9mYW5pcyBTdWJzY3JpYmVycyIsIlVzZXJuYW1lIjoicHJvZmFuaXMiLCJGaXJzdE5hbWUiOiJGYW5pcyIsIlJvbGUiOlsiQWRtaW4iLCJTdXBlciBBZG1pbiJdfQ.mT1UD7DXTWRm4etsW9BuWcg5bj2CaeAQVXaoEOIwB7o",
+            "bets": [
+                456,
+                457,
+                459
+            ]
+        },
+        {
+            "username": "teste",
+            "password": "t",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDb2RlIFNob3RzIFdpdGggUHJvZmFuaXMiLCJpYXQiOjE2MjQyNzU1MjUsImV4cCI6MTY1NTgxMTUyNSwiYXVkIjoiQ29kZSBTaG90IFdpdGggUHJvZmFuaXMgU3Vic2NyaWJlcnMiLCJzdWIiOiJDb2RlIFNob3QgV2l0aCBQcm9mYW5pcyBTdWJzY3JpYmVycyIsIlVzZXJuYW1lIjoicHJvZmFuaXMiLCJGaXJzdE5hbWUiOiJGYW5pcyIsIlJvbGUiOlsiQWRtaW4iLCJTdXBlciBBZG1pbiJdfQ.mT1UD7DXTWRm4etsW9BuWcg5bj2CaeAQVXaoEOIwB7o",
+            "bets": [
+            ]
+        }
+    ],
+    "bets": [
+        {
+            "id": 456,
+            "cotacao": 100,
+            "valor": 3456.34,
+            "jogos": [
+                "Flamengo X Cruzeiro",
+                "São Paulo X Vasco"
+            ]
+        },
+        {
+            "id": 457,
+            "cotacao": 10,
+            "valor": 345.34,
+            "jogos": [
+                "Flamengo X Cruzeiro"
+            ]
+        },
+        {
+            "id": 458,
+            "cotacao": 1,
+            "valor": 34.34,
+            "jogos": [
+                "São Paulo X Corinthians"
+            ]
+        },
+        {
+            "id": 459,
+            "cotacao": 15,
+            "valor": 247.34,
+            "jogos": [
+                "São Paulo X Corinthians",
+                "Flamengo X Cruzeiro",
+                "São Paulo X Vasco"
+            ]
+        }
+    ]
+}
